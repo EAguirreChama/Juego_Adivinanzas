@@ -1,9 +1,9 @@
 let numRandom = Math.floor(Math.random()*100) + 1
 
-let numEntrada = document.getElementById('numeroEntrada')
+let numEntrada = document.getElementById('numeroEntrada');
 
-let mensaje = document.getElementById('mensaje')
-let intento = document.getElementById('intento')
+let mensaje = document.getElementById('mensaje');
+let intento = document.getElementById('intento');
 
 let intentos = 0;
 
@@ -11,11 +11,11 @@ let intentos = 0;
 function comprobar(){
     intentos ++
     intento.textContent = intentos
-    
-    let numIngresado = parseInt(numEntrada.value)
+
+    let numIngresado = parseInt(numEntrada.value);
 
     if(numIngresado < 1 || numIngresado > 100 || isNaN(numIngresado)) {
-        mensaje.textContent = "Por favor ingresa un número entre 0 y 100"
+        mensaje.textContent = "Por favor ingresa un número entre 0 y 100";
         mensaje.style.color = 'red';
         return
     }
@@ -30,4 +30,4 @@ function comprobar(){
         mensaje.textContent = '¡Estuviste cerca! El número es más bajo';
         mensaje.style.color = 'red';
     }
-}
+};
