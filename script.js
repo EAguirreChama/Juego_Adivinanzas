@@ -19,6 +19,9 @@ function comprobar(){
         numEntrada.disabled = true;
     } else if (numIngresado < numRandom) {
         mensaje.textContent = 'Estuviste cerca! El número es más alto';
-        mensaje.style.color = 'grey';
+        mensaje.style.color = 'black';
+    } else {
+        mensaje.textContent = 'Estuviste cerca! El número es más bajo';
+        mensaje.style.color = 'black';
     }
 }
