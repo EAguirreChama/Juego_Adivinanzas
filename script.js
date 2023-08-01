@@ -14,14 +14,14 @@ function comprobar(){
         return
     }
     if(numIngresado === numRandom) {
-        mensaje.textContent = "Felicidades!";
+        mensaje.textContent = "¡Felicidades! Número correcto";
         mensaje.style.color = 'green';
         numEntrada.disabled = true;
     } else if (numIngresado < numRandom) {
-        mensaje.textContent = 'Estuviste cerca! El número es más alto';
-        mensaje.style.color = 'black';
+        mensaje.textContent = '¡Estuviste cerca! El número es más alto';
+        mensaje.style.color = 'red';
     } else {
-        mensaje.textContent = 'Estuviste cerca! El número es más bajo';
-        mensaje.style.color = 'black';
+        mensaje.textContent = '¡Estuviste cerca! El número es más bajo';
+        mensaje.style.color = 'red';
     }
 }
