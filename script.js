@@ -17,5 +17,8 @@ function comprobar(){
         mensaje.textContent = "Felicidades!";
         mensaje.style.color = 'green';
         numEntrada.disabled = true;
+    } else if (numIngresado < numRandom) {
+        mensaje.textContent = 'Estuviste cerca! El número es más alto';
+        mensaje.style.color = 'grey';
     }
 }
