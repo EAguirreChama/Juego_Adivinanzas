@@ -1,10 +1,6 @@
-## Link al curso completo de Javascript en Youtube:
-[VIDEO CURSO GRATIS COMPLETO: JavaScript Desde Cero por Sergie Code](https://youtu.be/N8Xt5rP_DUo)
-
-
 # Tutorial de Javascript: Juego de Adivinanza
 
-Link para ver el resultado: [JUEGO ADIVINANZA TRABAJO TERMINADO](https://juego-adivinanza-tutorial-js.netlify.app/)
+Link: [Juego Adivinanza](https://juego-adivinanza-tutorial-js.netlify.app/)
 
 Este repositorio contiene el código de un juego de adivinanza implementado en Javascript. El juego consiste en adivinar un número aleatorio generado por el programa en un rango del 1 al 100.
 
