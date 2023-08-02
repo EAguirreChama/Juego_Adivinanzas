@@ -1,20 +1,20 @@
-# Tutorial de Javascript: Juego de Adivinanza
+# Tutorial de Javascript: Juego de Adivinanza 😁
 
-Link: [Juego Adivinanza](https://adivinando-numero.netlify.app/)
+Link: [Juego Adivinanza](https://adivinando-numero.netlify.app/) 💻
 
 Este repositorio contiene el código de un juego de adivinanza implementado en Javascript. El juego consiste en adivinar un número aleatorio generado por el programa en un rango del 1 al 100.
 
-## Código Javascript
+## Código Javascript 📈
 
 El archivo Javascript principal es `script.js`, que contiene las siguientes funciones y variables:
 
-### Generar un número aleatorio
+### Generar un número aleatorio 💻
 
     let numeroAzar = Math.floor(Math.random() * 100) + 1;
 
 Esta línea de código genera un número aleatorio entre 1 y 100 y lo guarda en la variable `numeroAzar`. Utilizamos `Math.random()` para generar un número decimal entre 0 y 1, luego lo multiplicamos por 100 para obtener un número entre 0 y 100, y finalmente utilizamos `Math.floor()` para redondear hacia abajo y obtener un número entero entre 0 y 99. Al sumar 1 al resultado, obtenemos un número aleatorio entre 1 y 100.
 
-### Obtener elementos del DOM
+### Obtener elementos del DOM 💻
 
     let numeroEntrada = document.getElementById('numeroEntrada');
     let mensaje = document.getElementById('mensaje');
@@ -48,7 +48,7 @@ Esta función se llama cuando el usuario presiona el botón de "Comprobar". Prim
 
 Si el número ingresado es válido, se compara con el número generado aleatoriamente. Si son iguales, se muestra un mensaje de felicitación y se deshabilita el campo de entrada. Si el número ingresado es menor que el número aleatorio, se muestra un mensaje indicando que el número es mayor. Si es mayor, se muestra un mensaje indicando que el número es menor. En ambos casos, el mensaje se muestra en el elemento "mensaje" y se cambia el color del texto al rojo.
 
-## Uso del juego
+## Uso del juego 🚀
 
 1.  Clona o descarga este repositorio en tu computadora.
 2.  Abre el archivo `index.html` en tu navegador web.
