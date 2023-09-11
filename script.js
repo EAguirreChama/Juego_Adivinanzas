@@ -1,10 +1,7 @@
 let numRandom = Math.floor(Math.random()*100) + 1
-
 let numEntrada = document.getElementById('numeroEntrada');
-
 let mensaje = document.getElementById('mensaje');
 let intento = document.getElementById('intento');
-
 let intentos = 0;
 
 // Esta accion se va a realizar cuando comprobemos el número
